@@ -1,0 +1,20 @@
+{
+  "name": "plitvice",
+  "version": "1.0.0",
+  "description": "Novi web za NP Plitvička jezera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NP",
+    "Croatia",
+    "Plitvička",
+    "jezera"
+  ],
+  "author": "Luka P",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
