@@ -544,7 +544,6 @@ body {
     display: inline-block;
     transition: all .2s; }
   .footer__link:hover, .footer__link:active {
-    backface-visibility: hidden;
     background-color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: scale(1.1); }
@@ -553,8 +552,6 @@ body {
     padding-top: 2rem;
     width: 90%;
     float: right; }
-    .footer__copyright p {
-      float: right; }
 
 .header {
   height: 95vh;
@@ -633,7 +630,7 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -5%;
   z-index: 1500;
   opacity: 0;
   width: 0;
@@ -642,7 +639,7 @@ body {
 .navigation__list {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   list-style-type: none;
   text-align: center;
@@ -660,7 +657,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
-  background-size: 230%;
+  background-size: 240%;
   transition: all .4s; }
   .navigation__link:link span, .navigation__link:visited span {
     margin-right: 1.5rem;
