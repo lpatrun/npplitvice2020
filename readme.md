@@ -1,3 +1,8 @@
-For development, use package.json to install necessary packages.
+Plitvice 2020
+=======
 
-Download and open index.html.
+_ideja za dizajn web stranice NP Plitvička Jezera_
+
+#### Demo
+
+[https://lpatrun.github.io/plitvice2020/](https://lpatrun.github.io/plitvice2020/)
